@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabulars-e.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The bundle presents the examples of the book "Typesetting
@@ -374,7 +372,6 @@ documents.
 %doc %{_texmfdistdir}/doc/latex/tabulars-e/07-03-2.ltx2
 %doc %{_texmfdistdir}/doc/latex/tabulars-e/README
 %doc %{_texmfdistdir}/doc/latex/tabulars-e/din8.eps
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -385,5 +382,3 @@ documents.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
