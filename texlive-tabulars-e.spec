@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-tabulars-e
 Version:	1.0
-Release:	11
+Release:	12
 Summary:	Examples from the book "Typesetting tables with LaTeX"
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/examples/tabulars-e
