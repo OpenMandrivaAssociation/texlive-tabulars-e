@@ -9,7 +9,7 @@ Version:	1.0
 Release:	13
 Summary:	Examples from the book "Typesetting tables with LaTeX"
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/examples/tabulars-e
+URL:		https://www.ctan.org/tex-archive/info/examples/tabulars-e
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabulars-e.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tabulars-e.doc.tar.xz
